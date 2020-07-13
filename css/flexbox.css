@@ -1,0 +1,33 @@
+nav {
+  background: purple;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: flex-end; */
+}
+
+.nav-hijo {
+  display: inline-block;
+  background: pink;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.nav-hijo:hover {
+  background: #3b6889;
+}
+
+/* respondive */
+@media (max-width: 600px) {
+  nav {
+    background: black;
+    /* posicionar los elementos uno bajo otro */
+    flex-direction: column;
+  }
+  .nav-hijo {
+    /* margin-top: 4px;
+    margin-bottom: 4px; */
+    /* arriba y abajo de 10 e izq y der de 0 */
+    margin: 10px 0px;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #264653;
+}
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  background: black;
+}
+.menu {
+  background: #f4a261;
+  /* para mostrar uno al lado del otro */
+  display: flex;
+  /* utilizando herramienta flex boxes  */
+  flex-wrap: nowrap;
+  /* altura */
+  height: 100px;
+  /* alineación vertical de los hijos */
+  align-items: center;
+}
+.logo {
+  flex: 1 1 auto;
+  background: #2a9d8f;
+  height: 30px;
+}
+.nav {
+  flex: 5 1 auto;
+  background: #e76f51;
+  height: 30px;
+}
+.social-media {
+  flex: 1 1 auto;
+  background: #f1faee;
+  height: 30px;
+}
+.texto-principal {
+  background: #f1faee;
+}
+h1 {
+  background: #a8dadc;
+}
+.section {
+  display: flex;
+  background: black;
+}
+.articulos {
+  flex: 2 1 auto;
+  background: #ffcdb2;
+  display: flex;
+  flex-flow: row wrap;
+}
+.article {
+  background: #457b9d;
+  flex: 1 1 40%;
+}
+.navegacion {
+  background: #6d6875;
+  flex: 1 1 100%;
+}
+.aside {
+  flex: 1 1 auto;
+  background: #f77f00;
+}
+.publicidad {
+  background: #e71d36;
+}
+.footer {
+  background: black;
+  /* para centrar el contenedor pie (hijo) */
+  display: flex;
+  justify-content: center;
+  /* para centrar un contenedor hijo */
+}
+.pie {
+  background: #f3ffbd;
+  width: 300px;
+}

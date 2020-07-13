@@ -1,0 +1,14 @@
+button {
+  background: #3b6889;
+  color: whitesmoke;
+}
+
+/* sobre el botton */
+button:hover {
+  background: #786787;
+}
+
+/* cuando se da bottón */
+button:active {
+  background: #f47e8c;
+}

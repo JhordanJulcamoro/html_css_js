@@ -1,0 +1,44 @@
+nav {
+  background: purple;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.nav-hijo {
+  background: pink;
+  padding: 10px 30px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-hijo:hover {
+  background: #3b6889;
+}
+
+.nav-button {
+  background: pink;
+  color: white;
+  padding: 10px 30px;
+  /* parametros de border
+  ancho del borde, propiedad solida, color */
+  border: 0px solid white;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  nav {
+    background: #c77890;
+    flex-direction: column;
+  }
+  .nav-hijo {
+    margin: 10px 0;
+  }
+  .nav-button {
+    display: inline-block;
+  }
+  .desaparece {
+    display: none;
+  }
+}

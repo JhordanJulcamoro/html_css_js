@@ -1,0 +1,20 @@
+html {
+  background-color: #3b6889;
+  color: white;
+}
+h1 {
+  /* margin es externo */
+  /* padding es interno */
+  /* margin: arriba derecha abajo izquierda ; */
+  padding: 20px;
+  background: #786787;
+  margin: 5px;
+}
+p {
+  background: #c77890;
+  margin: 200px 100px;
+}
+
+a {
+  color: red;
+}

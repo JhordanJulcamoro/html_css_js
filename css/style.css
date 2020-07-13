@@ -1,0 +1,25 @@
+body {
+  background-color: azure;
+}
+h2 {
+  color: blue;
+}
+header {
+  background-color: blanchedalmond;
+}
+nav {
+  text-align: right;
+  background-color: bisque;
+}
+
+#select {
+  color: brown;
+}
+
+.noselect {
+  color: blueviolet;
+}
+
+.display {
+  display: block;
+}

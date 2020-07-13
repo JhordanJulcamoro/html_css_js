@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.flex {
+  /* pone todas las tablas en una sola fila */
+  display: flex;
+
+  /* para responsive */
+  flex-wrap: wrap;
+}
+.text-center {
+  /* alinea el texto de una columna de tabla de manera centrada */
+  text-align: center;
+}
+.columna {
+  background: rgb(228, 228, 228);
+  color: #333;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  /* agregar sombras con box-shadow */
+  /* primer valor eje x, segundo valor eje y , nivel de degradado, luego el color de la sombra */
+  box-shadow: 5px 5px 12px #333;
+
+  /* para responsive */
+  width: 23%;
+  box-sizing: border-box;
+}
+.precio {
+  font-size: 40px;
+  color: #00dac7;
+}
+
+/* boton de precio*/
+.btn-precio {
+  display: block;
+  background: salmon;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.btn-precio:hover {
+  background: rgb(151, 77, 68);
+}
+
+/* para responsive */
+@media (max-width: 1070px) {
+  .columna {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+/* para responsive */
+@media (max-width: 600px) {
+  .columna {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
