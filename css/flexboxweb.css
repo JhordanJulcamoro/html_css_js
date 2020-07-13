@@ -81,3 +81,45 @@ h1 {
   background: #f3ffbd;
   width: 300px;
 }
+
+/* responsive pantallas menos 800px */
+@media all and (max-width: 800px) {
+  /* para el menu */
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+  /* para la parte de section */
+  .section {
+    flex-direction: column;
+  }
+  .aside {
+    display: flex;
+    justify-content: center;
+  }
+  /* primera forma en que podría funcionar
+  .section {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .articulos {
+    flex: 1 1 auto;
+  }
+  .aside {
+    flex: 1 1 auto;
+  } */
+}
+
+/* responsive pantallas menos 600px */
+@media all and (max-width: 600px) {
+  .articulos {
+    flex-direction: column;
+  }
+}
+
+/* responsive pantallas menos 400px */
+@media all and (max-width: 400px) {
+  .aside {
+    flex-direction: column;
+  }
+}
