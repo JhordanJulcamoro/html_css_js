@@ -2,6 +2,8 @@
   margin: 10px;
   padding: 10px;
   box-sizing: border-box;
+}
+body {
   background: #264653;
 }
 .padre {
