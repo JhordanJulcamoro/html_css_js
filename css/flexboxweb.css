@@ -182,8 +182,8 @@ h4 {
   padding: 0 10px;
 }
 
-/* responsive pantallas menos 800px */
-@media all and (max-width: 800px) {
+/* responsive pantallas menos 1120px */
+@media all and (max-width: 1120px) {
   /* para el menu */
   .menu {
     flex-direction: column;
@@ -208,12 +208,34 @@ h4 {
   .aside {
     flex: 1 1 auto;
   } */
+  h1 {
+    font-size: 15px;
+  }
+  .texto-principal {
+    height: 450px;
+  }
 }
 
-/* responsive pantallas menos 600px */
-@media all and (max-width: 600px) {
+/* responsive pantallas menos 785px */
+@media all and (max-width: 785px) {
   .articulos {
     flex-direction: column;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .off {
+    display: none;
+  }
+  .nav {
+    padding: 10px 0 0 0;
+  }
+
+  .social-media {
+    padding: 10px;
+  }
+  .nav a {
+    font-size: 25px;
   }
 }
 
