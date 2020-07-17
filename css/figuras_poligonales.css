@@ -1,0 +1,19 @@
+.triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.paralello {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.rightchevron {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+.triangulo-invertido {
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.fondo {
+  background: url(../img/fondo.jpg);
+  background-size: cover; /*para centrar la imagen*/
+  height: 80vh; /*para indicar el tamaño de la imagen*/
+  clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+}
